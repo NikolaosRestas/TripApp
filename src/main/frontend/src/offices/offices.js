@@ -17,7 +17,7 @@ const OfficesPage = () => {
                 setIsLoading(false);
             })
             .catch(error => {
-                console.error('Error fetching counties:', error);
+                console.error('Error fetching offices:', error);
                 setIsLoading(false); // Ensure loading state is updated even on error
             });
     }, []);
